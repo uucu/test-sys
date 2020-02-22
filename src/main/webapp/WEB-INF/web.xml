@@ -1,0 +1,53 @@
+<!DOCTYPE web-app PUBLIC
+  "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+  "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>play</servlet-name>
+        <servlet-class>org.example.Play</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>play</servlet-name>
+        <url-pattern>/servlet/play</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sleep</servlet-name>
+        <servlet-class>org.example.Sleep</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sleep</servlet-name>
+        <url-pattern>/servlet/sleep</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>lock</servlet-name>
+        <servlet-class>org.example.Lock</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>lock</servlet-name>
+        <url-pattern>/servlet/lock</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>loop</servlet-name>
+        <servlet-class>org.example.Loop</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loop</servlet-name>
+        <url-pattern>/servlet/loop</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>thread</servlet-name>
+        <servlet-class>org.example.Thread</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>thread</servlet-name>
+        <url-pattern>/servlet/thread</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
